@@ -221,7 +221,7 @@ section{
     margin:4rem 1rem;
     padding-left: 4rem;
     border-left: .2rem solid #fff;
-    position: relative;
+    position: static;
 }
 
 .education .box-container .box span{
@@ -245,7 +245,7 @@ section{
 }
 
 .education .box-container .box i{
-    position: static;
+    position: absolute;
     top:-1.5rem; left:-2.5rem;
     height:5rem;
     width: 5rem;
