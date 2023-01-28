@@ -123,8 +123,7 @@ section{
     font-size: 2rem;
     border-radius: 3rem;
     padding:  20px 35px;
-    text-transform:uppercase;
-    
+   
     
 }
 
@@ -133,17 +132,6 @@ section{
 }
 
 
-#menu{
-    position: fixed;
-    top:2rem; right:2rem;
-    background:#333;
-    color:#f9ca24;
-    cursor: pointer;
-    font-size: 2.5rem;
-    padding:1rem 1.5rem;
-    z-index: 1000;
-    display: none;
-}
 
 .home{
     display: flex;
@@ -257,7 +245,7 @@ section{
 }
 
 .education .box-container .box i{
-    position: absolute;
+    position: static;
     top:-1.5rem; left:-2.5rem;
     height:5rem;
     width: 5rem;
